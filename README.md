@@ -4,18 +4,12 @@ Paste your rich text content here. Y
 
 A powerful and flexible image uploading utility for Node.js, Express, or NestJS apps.
 
-*    ✅ Upload single or multiple images
-*     
-*    🌐 Automatically serves uploaded images via `/uploads`
-*     
-*    💾 Saves metadata to PostgreSQL, MySQL, or MongoDB
-*     
-*    🧠 Auto-detects base URL if not provided
-*     
-*    ⚙️ Automatically configures Express route internally
-*     
-*    📦 Works even after deployment (e.g. with domain names)
-*     
+*    ✅ Upload single or multiple images     
+*    🌐 Automatically serves uploaded images via `/uploads`   
+*    💾 Saves metadata to PostgreSQL, MySQL, or MongoDB    
+*    🧠 Auto-detects base URL if not provided    
+*    ⚙️ Automatically configures Express route internally  
+*    📦 Works even after deployment (e.g. with domain names)   
 *    🗃 Handles disk storage, UUID file naming, and temp cleanup    
 
 * * *
