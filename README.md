@@ -1,23 +1,22 @@
-# image-upload-kit
+Paste your rich text content here. Y
 
 # 📦 ImageUploader Package
 
 A powerful and flexible image uploading utility for Node.js, Express, or NestJS apps.
 
-* *   ✅ Upload single or multiple images
+*    ✅ Upload single or multiple images
 *     
-* *   🌐 Automatically serves uploaded images via `/uploads`
+*    🌐 Automatically serves uploaded images via `/uploads`
 *     
-* *   💾 Saves metadata to PostgreSQL, MySQL, or MongoDB
+*    💾 Saves metadata to PostgreSQL, MySQL, or MongoDB
 *     
-* *   🧠 Auto-detects base URL if not provided
+*    🧠 Auto-detects base URL if not provided
 *     
-* *   ⚙️ Automatically configures Express route internally
+*    ⚙️ Automatically configures Express route internally
 *     
-* *   📦 Works even after deployment (e.g. with domain names)
+*    📦 Works even after deployment (e.g. with domain names)
 *     
-* *   🗃 Handles disk storage, UUID file naming, and temp cleanup
-*     
+*    🗃 Handles disk storage, UUID file naming, and temp cleanup    
 
 * * *
 
@@ -68,19 +67,14 @@ No need to manually define routes or static middleware — the package handles e
 
 ### 2\. Upload via Postman or Client
 
-* *   Method: `POST`
-*     
-* *   URL: `http://localhost:4000/upload` → for **single** image
-*     
-* *   URL: `http://localhost:4000/upload/many` → for **multiple** images
-*     
+*    Method: `POST`    
+*    URL: `http://localhost:4000/upload` → for **single** image     
+*    URL: `http://localhost:4000/upload/many` → for **multiple** images  
 
 **Form-Data Body:**
 
-* *   Key: `file` or `files[]`
-*     
-* *   Type: File
-*     
+*    Key: `file` or `files[]`
+*    Type: File   
 
 * * *
 
@@ -158,31 +152,21 @@ npm install mongodb
 
 This package simplifies image uploading and serving in any backend app by:
 
-* *   Accepting single/multiple image uploads via `POST /upload` and `/upload/many`
-*     
-* *   Storing images in the user-defined local folder
-*     
-* *   Creating public image URLs (served from `/uploads`)
-*     
-* *   Automatically saving metadata to database
-*     
-* *   Auto-configuring the Express app to serve routes — no extra setup needed
-*     
-* *   Auto-detecting base URL when not provided (in production too)
-*     
+*    Accepting single/multiple image uploads via `POST /upload` and `/upload/many`  
+*    Storing images in the user-defined local folder 
+*    Creating public image URLs (served from `/uploads`)   
+*    Automatically saving metadata to database  
+*    Auto-configuring the Express app to serve routes — no extra setup needed    
+*    Auto-detecting base URL when not provided (in production too)  
 
 * * *
 
 ## 🔐 Production Usage Tips
 
-* *   Use absolute folder paths in `uploadDir` like `/var/www/myapp/uploads`
-*     
-* *   Add file type checks in your client/frontend (if needed)
-*     
-* *   Deploy behind a reverse proxy like Nginx
-*     
-* *   Use HTTPS in production
-*     
+*    Use absolute folder paths in `uploadDir` like `/var/www/myapp/uploads`  
+*    Add file type checks in your client/frontend (if needed)   
+*    Deploy behind a reverse proxy like Nginx   
+*    Use HTTPS in production   
 
 * * *
 
@@ -190,16 +174,11 @@ This package simplifies image uploading and serving in any backend app by:
 
 This image uploader gives you:
 
-* *   🔥 Dynamic upload API
-*     
-* *   📂 Local file storage
-*     
-* *   🌍 Auto image serving
-*     
-* *   🧠 Smart URL generation
-*     
-* *   🗃 Metadata storage
-*     
+*    🔥 Dynamic upload API  
+*    📂 Local file storage    
+*    🌍 Auto image serving    
+*    🧠 Smart URL generation    
+*    🗃 Metadata storage   
 
 For contributions or issues: 👉 [GitHub Issues](https://github.com/Jaybhanu12/image-upload-kit)
 
