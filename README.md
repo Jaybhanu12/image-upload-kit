@@ -175,7 +175,3 @@ This image uploader gives you:
 *    🗃 Metadata storage   
 
 For contributions or issues: 👉 [GitHub Issues](https://github.com/Jaybhanu12/image-upload-kit)
-
-Happy uploading! 📸
-
-ou can paste directly from Word or other rich text sources.
